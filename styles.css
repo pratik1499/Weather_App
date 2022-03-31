@@ -1,6 +1,7 @@
 * {
   font-family: "Montserrat", sans-serif;
   color: white;
+  overflow-y: hidden;
 }
 
 body {
