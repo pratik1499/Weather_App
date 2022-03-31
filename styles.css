@@ -1,0 +1,50 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+body {
+  background: url("images/ross-s-3uTGaHtWCxg-unsplash.jpg") no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+}
+
+#city {
+  width: 20em;
+  height: 4em;
+  border-radius: 2em;
+  border-color: black;
+}
+
+.error {
+  margin-left: 1em;
+  color: red;
+}
+
+.search {
+  display: flex;
+  justify-content: space-evenly;
+}
+input {
+  padding-left: 1.5em;
+  color: black !important;
+}
+
+.search-icon {
+  width: 2.5em;
+  height: 2.5em;
+  margin-top: 1em;
+}
+
+.search img:hover {
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
