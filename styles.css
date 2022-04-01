@@ -1,7 +1,6 @@
 * {
   font-family: "Montserrat", sans-serif;
   color: white;
-  overflow-y: hidden;
 }
 
 body {
@@ -11,7 +10,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  backdrop-filter: blur(5px);
 }
 
 #city {
@@ -33,6 +31,7 @@ body {
 input {
   padding-left: 1.5em;
   color: black !important;
+  width: 100%;
 }
 
 .search-icon {
@@ -44,8 +43,15 @@ input {
 .search img:hover {
   cursor: pointer;
 }
+.sub-content {
+  backdrop-filter: blur(5px);
+}
 
 .content {
-  display: flex;
-  justify-content: space-between;
+  backdrop-filter: blur(5px);
+}
+
+.spacing {
+  backdrop-filter: blur(5px);
+  padding-bottom: 1em;
 }
